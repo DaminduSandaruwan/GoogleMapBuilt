@@ -14,7 +14,7 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="google_map"
         android:icon="@mipmap/ic_launcher">
-        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="your_api_key"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyCcCaE1aoVaXs2paCi5a-CLei66s_QjMYE"/>
         <meta-data android:name="com.google.android.gms.version" android:value="@interger/google_play_service_version"/>
         <activity
             android:name=".MainActivity"
@@ -45,6 +45,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name="com.apptreesoftware.mapview.MapActivity" android:theme="@style/Theme.AppCompact.Light.DarkActionBar"/>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data
